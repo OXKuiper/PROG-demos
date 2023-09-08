@@ -1,7 +1,7 @@
 # Voorbeelden les 1 
-# Dit is niet alle stof, maar mogelijk een handige aanvulling
+# Dit is niet alle stof, maar mogelijk een handige aanvulling.
 
-# Wat uitleg:
+# Wat uitleg over python/pycharm in het algemeen:
 # Alles wat je hier leest, zijn comments, omdat de regel start met een hekje(#)
 # Voor Python zijn deze regels onzichtbaar
 
