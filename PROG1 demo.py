@@ -1,4 +1,4 @@
-# Voorbeelden les 1
+# Voorbeelden les 1 
 # Dit is niet alle stof, maar mogelijk een handige aanvulling
 
 # Wat uitleg:
