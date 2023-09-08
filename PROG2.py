@@ -1,0 +1,3 @@
+# Hier ga ik wat dingen demo'en voor les2...
+# later zijn deze te vinden op github.com/OXKuiper/PROG-demos/
+
