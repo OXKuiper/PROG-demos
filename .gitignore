@@ -1,14 +1,7 @@
-
-
-
-
-
-
-
-
-
-
+# idea is een map van PyCharm, hoef/wil je niet op je repo te zetten
 .idea
+
+# Rest is default .gitignore file
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
