@@ -1,4 +1,5 @@
 # Voorbeelden les 1
+# Dit is niet alle stof, maar mogelijk een handige aanvulling
 
 # Wat uitleg:
 # Alles wat je hier leest, zijn comments, omdat de regel start met een hekje(#)
