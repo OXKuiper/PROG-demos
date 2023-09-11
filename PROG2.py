@@ -5,10 +5,10 @@
 #print('Hoi, je heet: ' + user_input)
 
 user_age = input('Wat is je leeftijd?')
-user_age_as_int = int(user_age)
-user_age_times_two = user_age_as_int*2
+user_age = int(user_age)
+user_age_times_two = user_age*2
 
-print('Hoi, je bent als je twee keer zo oud bent ' + str(user_age_times_two))
+print('Hoi, je bent (keer2) ' + str(user_age_times_two))
 #
 
 #
