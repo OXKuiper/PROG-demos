@@ -2,7 +2,7 @@
 .idea
 
 # je wachtwoorden etc wil je niet in de cloud (gitHUB) zetten
-my_credentials_example.txt
+/my_credentials_example.txt
 
 # Rest is default .gitignore file
 
