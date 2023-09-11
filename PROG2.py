@@ -1,5 +1,6 @@
 # Hier ga ik wat dingen demo'en voor les2...
 # later zijn deze te vinden op github.com/OXKuiper/PROG-demos/
+# extr regel comment
 
 #user_input = input('Wat is je naam?')
 #print('Hoi, je heet: ' + user_input)
