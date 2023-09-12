@@ -23,6 +23,16 @@ print('Hoi, je bent als je twee keer zo oud bent ' + str(user_age_times_two))
 # Met + maak je er één string van terwijl met , je aan print meerdere "argumenten" meegeeft
 # Als we naar functies gaan kijken daarover meer. Voor nu: Kies een manier die voor jou werkt.
 
+# Hieronder nog een voorbeeld van print() op verschillende manieren, die hetzelfde doen
+my_name = 'Henk'
+my_age = 66
+print("Hoi " + my_name + " you are " + str(my_age) + " years old!")
+print("Hoi", my_name, "you are", str(my_age), "years old!")
+
+# # Extra fancy manier om te printen.
+# print(f"Hoi {my_name} you are {my_age} years old!")
+
+
 
 
 
