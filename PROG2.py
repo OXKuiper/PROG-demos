@@ -23,6 +23,22 @@ print('Hoi, je bent als je twee keer zo oud bent ' + str(user_age_times_two))
 # Met + maak je er één string van terwijl met , je aan print meerdere "argumenten" meegeeft
 # Als we naar functies gaan kijken daarover meer. Voor nu: Kies een manier die voor jou werkt.
 
+# Let op bij converteren naar int.
+print(int(2.1)) # dit geeft 2
+print(int(2.9)) # dit geeft 2!
+print(int(-2.9)) # dit geeft -2 (dus nu rond je naar boven af!)
+
+# je kan in python extra functionaliteiten importeren. Zoals de module math.
+# let op dat andere modules mogelijk eerst geinstalleerd moeten worden!
+import math
+
+math.sqrt(25) # geeft de wortel van een getal, bijv math.sqrt(25) geeft 5
+
+math.floor(-2.9) # rond altijd naar beneden af, hier bijvoorbeeld naar -3
+
+# er zijn nog veel andere math functies die je kan gebruiken.
+
+
 # Hieronder nog een voorbeeld van print() op verschillende manieren, die hetzelfde doen
 my_name = 'Henk'
 my_age = 66
