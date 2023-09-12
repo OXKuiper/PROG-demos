@@ -1,18 +1,27 @@
-# Hier ga ik wat dingen demo'en voor les2...
-# later zijn deze te vinden op github.com/OXKuiper/PROG-demos/
-# extr regel comment
+# Demo les 2
 
-#user_input = input('Wat is je naam?')
-#print('Hoi, je heet: ' + user_input)
+user_input = input('Wat is je naam?')
+print('Hoi, je heet: ' + user_input)
 
 user_age = input('Wat is je leeftijd?')
+
+# let op dat ook al vraag je een getal, user_age nu een str is!
+print('Type van user_age is: ', type(user_age))
+
+# om er mee te rekenen, moeten we er en int (of float) van maken, bijv:
 user_age = int(user_age)
+
+# Nu kunnen we:
 user_age_times_two = user_age*2
 
-print('Hoi, je bent (keer2) ' + str(user_age_times_two))
-#
+print('Hoi, je bent als je twee keer zo oud bent ' + str(user_age_times_two))
 
 #
+
+# Je kan met print overigens + of , gebruiken om iets wat je wil printen op te bouwen
+# Werk allebei, maar net anders:
+# Met + maak je er één string van terwijl met , je aan print meerdere "argumenten" meegeeft
+# Als we naar functies gaan kijken daarover meer. Voor nu: Kies een manier die voor jou werkt.
 
 
 
