@@ -22,7 +22,7 @@ if BMI < 18.5:
     print('Laag BMI')
 elif BMI > 25.0:
     print('Hoog BMI')
-else:
+else: # BMI <= 18.5 and bmi <= 25   # je hoeft hier niet meer te checken, wat alle 'else' is al >18.5 en <25
     print('Normaal BMI')
 
 ### Range ###
