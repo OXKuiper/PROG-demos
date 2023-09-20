@@ -4,11 +4,9 @@
 ### For loops ###
 # Met for-loops kan je bijvoorbeeld over een lijst itereren
 lijst = ['Cas','Wim','Bob','Eva','Mo']
-
 for i in lijst:
     print('In de for-loop')
     print('Hoi', i) # i is de 1e keer 'Cas', daarna 'Wim' etc.
-
 print('\nNa de for-loop')
 
 ### BMI voorbeeld ###
