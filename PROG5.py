@@ -29,10 +29,11 @@ s1 = 'Hoi Barry'
 s2 = s1.replace('Hoi', 'Hai')
 print(s2)  # geeft 'Hai Barry'
 
-# Woorden in een zin tellen.
-s = 'Dit is een zin met een bepaald aantal woorden.'
-s_list = s.split() # split standaard op spaties, maar je kan ook op bijv commas splitsen
-print(f'De lengte van de zin is: {len(s_list)}')
+# nog een voorbeeld
+input1 = 'Hoi, ik, ben, een NS reiziger en bla'
+lijst = input1.split(',')
+print(f'Het aantal woorden in de lijst is {len(lijst)}')
+
 
 #
 s = 'henk'
