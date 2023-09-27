@@ -8,8 +8,9 @@ pets = ['cat', 'dog', 'fish', 'bird']
 for animal in pets:
     print(animal) # print een voor een ieder dier in de lijst
 
+pets = ['cat', 'dog', 'fish', 'bird']
 # Je kan een lijst afgaan via de index (plek). Dus 0, 1, ... tot de lengte vd lijst. Variabelenaam i is dan gebruikelijk.
-for i in range(len(pets)):
+for i in range(len(pets))
     print(f'\nIn de for loop is variabele i nu: {i}')
     print(f'En dat is dier: {pets[i]}') # vaak op deze manier gebruikt
 
@@ -18,13 +19,13 @@ for i in range(len(pets)):
         print(f'Fish staat op plek {i} in de lijst')
 
 ## ALTERNATIEVE MANIER - Enumerate om gelijk item zelf én index te hebben
-for i, animal in enumerate(pets):  # ennumerate geeft een soort duo-lijst, van de index en wat er daadwerkelijk in de lijst zit.
+for i, animal in enumerate(pets):  # ennumerate geeft een soort dubbele-lijst, van de index en wat er daadwerkelijk in de lijst zit.
     print(f'Nu is i en animal: {i} en {animal}')
 
 
 # Slide 8. Nested loop.
 # Voorbeeld op de slide is erg onduidelijk. Dit is denk ik duidelijker:
-# Stel je hebt een lijst van woorden, en je wil iedere letter 'a' een '4' maken
+# Stel je hebt een lijst van woorden, en je wil iedere letter 'a' een 'A' maken
 # Dat kan met een loop-in-een-loop nodig. Namelijk:
 # Je wil alle woorden afgaan. (for-loop 1)
 #    Je wil alle letters per woord afgaan. (for-loop 2)
@@ -35,7 +36,7 @@ for word in pets:
     new_word = ""
     for letter in word:
         if letter == 'a':
-            new_word += '4'
+            new_word += 'A'
         else:
             new_word += letter
     pets_2.append(new_word)
@@ -43,20 +44,19 @@ for word in pets:
 print(pets_2)
 
 pets = ['catfish', 'dog', 'fish', 'bird', 'giraffe']
-print(pets[0][0:4]) # Dit pakt eerst het 0e ding, daarna de eerste 3 elementen. Dus hier 'cat'
+print(pets[0][0:4])  # Dit pakt eerst het 0e ding, daarna de eerste 3 elementen. Dus hier 'cat'
 
 
 
 ### Slides over two dimensional lists
 # Boter-kaas-eieren maken? Dat kunnen we nu!
-
-
-
-# Boter-kaas-eieren maken? Misschien vind je het zelf leuk om dit af te maken? Ga ervoor!
+# Misschien vind je het zelf leuk om dit af te maken? Ga ervoor!
 
 # 0 is leeg, 1 is speler1, 2 is speler2
-boter_kaas_eieren = [[0,0,0],[0,0,0],[0,0,0]]  # startstaat van het bord (leeg)
-game_on = True  # nu nog geen stop-manier.. wat zou die kunnen zijn?
+boter_kaas_eieren = [[0,0,0],
+                     [0,0,0],
+                     [0,0,0]]  # startstaat van het bord (leeg)
+game_on = False  # zet op true om te spelen. todo nu nog geen stop-manier.. wat zou die kunnen zijn?
 speler = 1      # startspeler
 while game_on:
     user_in = input(f'Speler {speler} Waar wil je een teken zetten? (Gebruik: rij, kolom)')
@@ -81,20 +81,14 @@ while game_on:
     else:
         speler = 1
 
-    # print veld
+    # manier om je grid te printen
     for i in boter_kaas_eieren:
         for j in i:
             print(j, end='')
         print('')
 
 
-# manier om je grid te printen
-for i in boter_kaas_eieren:
-    for j in i:
-        print(j,end='')
-    print('')
-
-
+### Continue and break
 # Continue zegt eigenlijk: Rond deze loop af gelijk en ga door naar de volgende
 for i in range(5):
     if i == 2:
@@ -107,4 +101,11 @@ for i in range(5):
         break
     print(i) # als i==2 wordt deze regel niét uitgevoerd.. EN later ook niet, want de hele for-loop is klaar
 
+### while loop met stop conditie
+geld = 10
+maanden = 0
+while geld < 1000:
+    geld = geld * 1.05 # iedere maand %5 rente erbij.
+    maanden = maanden + 1
+    print(f'Na {maanden} maanden is mijn totale geld {geld:.2f}')
 
