@@ -10,7 +10,7 @@ for animal in pets:
 
 pets = ['cat', 'dog', 'fish', 'bird']
 # Je kan een lijst afgaan via de index (plek). Dus 0, 1, ... tot de lengte vd lijst. Variabelenaam i is dan gebruikelijk.
-for i in range(len(pets))
+for i in range(len(pets)):
     print(f'\nIn de for loop is variabele i nu: {i}')
     print(f'En dat is dier: {pets[i]}') # vaak op deze manier gebruikt
 
