@@ -56,7 +56,7 @@ print(pets[0][0:4])  # Dit pakt eerst het 0e ding, daarna de eerste 3 elementen.
 boter_kaas_eieren = [[0,0,0],
                      [0,0,0],
                      [0,0,0]]  # startstaat van het bord (leeg)
-game_on = False  # zet op true om te spelen. todo nu nog geen stop-manier.. wat zou die kunnen zijn?
+game_on = False  # zet op true om te spelen. to-do nu nog geen stop-manier.. wat zou die kunnen zijn?
 speler = 1      # startspeler
 while game_on:
     user_in = input(f'Speler {speler} Waar wil je een teken zetten? (Gebruik: rij, kolom)')
@@ -70,10 +70,10 @@ while game_on:
     boter_kaas_eieren[int(x)][int(y)] = speler # vul met huidige speler
 
     # hier code om te checken of iemand heeft gewonnen (tip: best lastig)
-    # todo...
+    # to-do...
 
     # hier een check of het veld niet vol is (en dus gelijkspel als je kijkt na de victory-check
-    # todo...
+    # to-do...
 
     # switch speler die aa de beurt his
     if speler == 1:
