@@ -104,7 +104,7 @@ import json
 results = [{'name': 'John', 'result': 4.0},
            {'name': 'Frank', 'result': 7.0}]
 
-with open('results.json', 'w') as json_file:
+with open('Data/results.json', 'w') as json_file:
     # kijk een wat indent doet door weghalen of andere waarde
     json.dump(results, json_file, indent=4)
 
