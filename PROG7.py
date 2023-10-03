@@ -1,5 +1,7 @@
-# Een dictionary bestaat uit allemaal key-value combinaties.
+# Demo code van les 7 (PROG7)
 
+#### DICTIONARIES ####
+# Een dictionary bestaat uit allemaal key-value combinaties.
 # Hier een dictionary met studenten en hun leeftijden
 # Hier zijn de namen de 'keys' en de leeftijden de 'values'
 studenten = {'Alice': 41, 'Bob': 33, 'Charles' : 20}
