@@ -18,7 +18,7 @@ studenten['Alice'] += 1
 print(studenten)
 
 # Je kan ook makkelijk iets nieuws toevoegen aan dicts
-studenten['Henk'] = 62
+studenten['Henk'] = 62 # bestaat nog niet, dus key-value paar wordt aangemaakt
 print(studenten)
 
 
@@ -50,7 +50,6 @@ grades = [95, 96, 100, 85, 95, 90, 95, 100, 100]
 # Ik wil kunnen zien hoeveel studenten 100 punten hebben gehaald.
 # Maar niet steeds de lijst tellen (zeker als deze heel lang is)...
 
-
 def frequency(itemList):
     """returns frequency of items in itemList"""
     counters = {}
@@ -60,7 +59,6 @@ def frequency(itemList):
         else:
             counters[item] = 1  # create item counter
     return counters
-
 
 dict_met_grades = frequency(grades)
 print(dict_met_grades)
@@ -99,10 +97,10 @@ telefoonboek = {('Henk', 'Janssen'): '0612345678',
 # Ik zou zelf al key gewoon een uniek nummer/string gebruiken, niet iets complex als een lijst/tuple/dict
 
 
-# Schrijven naar JSON bestand
+# Schrijven naar JSON-bestand
 import json
-results = [{'name': 'John', 'result': 4.0},
-           {'name': 'Frank', 'result': 7.0}]
+results = [{'name': 'John', 'result': 4.0},   # als je in python een dictionary hebt..
+           {'name': 'Frank', 'result': 7.0}]  # schrijf je dat zo naar een json-bestand!
 
 with open('Data/results.json', 'w') as json_file:
     # kijk een wat indent doet door weghalen of andere waarde
