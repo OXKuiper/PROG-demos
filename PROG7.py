@@ -104,5 +104,5 @@ results = [{'name': 'John', 'result': 4.0},   # als je in python een dictionary 
 
 with open('Data/results.json', 'w') as json_file:
     # kijk een wat indent doet door weghalen of andere waarde
-    json.dump(results, json_file, indent=4)
+    json.dump(results, json_file, indent=5)
 
