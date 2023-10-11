@@ -5,6 +5,8 @@ wachtwoorden.txt
 5_3.py
 
 Data/my_omdbapi_key.txt
+Data/my_openweather_key.txt
+Data/my_database_key.txt
 
 # je wachtwoorden etc wil je niet in de cloud (gitHUB) zetten
 my_credentials_example.txt
