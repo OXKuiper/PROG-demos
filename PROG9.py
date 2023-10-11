@@ -1,6 +1,6 @@
 ### Voorbeeld psycopg2 vanuit Python met SQL-database communiceren
 
-# Installeer deze package nog niet hebt
+# Installeer deze package als je die nog niet hebt
 import psycopg2
 
 # Dit is extra, maar netjes om je passwords niet in je code te zetten
