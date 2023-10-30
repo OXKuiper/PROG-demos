@@ -1,4 +1,4 @@
-''' Het basic TKinter voorbeeld'''
+''' Het basic TKinter voorbeeld '''
 
 ''' Importeren TKinter.
 
