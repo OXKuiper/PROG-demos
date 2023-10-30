@@ -3,14 +3,16 @@ def game_easy(rows, cols, nbombs=1):
 
     import random
     # get a random list of bombs-and-blanks equal amount of the total fields
+
     grid_as_list = (['_']*(rows*cols-nbombs) + ['B']*nbombs)
+    print(grid_as_list)
     random.shuffle(grid_as_list)
     print(grid_as_list)
-
-    # generate a grid of size rows*cols based on list
-    grid = [] # lege grid
+    #
+    # # generate a grid of size rows*cols based on list
+    grid = []  # lege grid
     for i in range(rows):
-        row = [] # we voegen per row toe
+        row = []  # we voegen per row toe
         for j in range(cols):
             # We pakken element i*cols+j uit de lijst... Reden:
             # Door i*cols pak je eerst de eerste rij (i=0), dan de 2e rij (i=1) etc
@@ -19,6 +21,7 @@ def game_easy(rows, cols, nbombs=1):
             # print(f'We nemen item uit lijst {i*cols+j}')
             row.append(grid_as_list[i*cols+j])
         grid.append(row) # Volgende i, dus volgende row
+        print(grid)
 
     # printen
     for row in grid:

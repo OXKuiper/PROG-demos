@@ -34,12 +34,13 @@ def isPositiefEnKleinerDan(x, y): # 1p correcte fuctie decl.
 
 
 ### OPGAVE ####
-run_the_loop = True
+#run_the_loop = True
 result = 1
-while run_the_loop:  # 1p while / 1p accumulator / 1p input
+while True:  # 1p while / 1p accumulator / 1p input
     invoer = input("Voer een getal in: ")
     if invoer == "stop":   # 2p stoppen loop (kan ook met break)
-        run_the_loop = False
+        #run_the_loop = False
+        break
     else:
         result = result * int(invoer) # 2p expressie
 # 1p output result

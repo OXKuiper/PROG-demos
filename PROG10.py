@@ -18,8 +18,8 @@ x = 5
 print(f'Buiten de functie is x: {x}')
 
 def doubler_2(y):
-    print(x) # <---*dit kan niet
-    x = 2    # <--tenzij je deze weghaald
+    print(x) # <---*dit kan niet Nu wel
+    #x = 2    # <--tenzij je deze weghaald
     print(f'In de functie is x: {x}, y: {y}')
     return x*y
 x = 5
